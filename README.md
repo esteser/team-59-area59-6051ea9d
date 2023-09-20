@@ -12,3 +12,4 @@ Make file contains commands needed.
 
 * 'Akhil Scott Gowri'
 * 'Pair3 - Naidu, Naga, Tray'
+* 'Pair2 - Gowri , Sachet'
