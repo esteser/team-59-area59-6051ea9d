@@ -11,3 +11,4 @@ Make file contains commands needed.
 * `make run` Runs the program
 
 * 'Akhil Scott Gowri'
+* 'Pair3 - Naidu, Naga, Tray'
