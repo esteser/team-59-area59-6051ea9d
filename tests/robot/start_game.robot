@@ -4,8 +4,8 @@ Test Template     Start new game
 Library           StartGameLibrary.py
 
 *** Test Cases ***      numPositions     startingPositionX    startingPositionY  startingMoveCount
-Blank character name    100              0                    0                  0
-
+*** Blank character name    100              0                    0                  0
+Area59 character name    50               3                    3                  100    
 *** Keywords ***
 Start new game
     [Arguments]    ${numPositions}  ${startingPositionX}  ${startingPositionY}  ${startingMoveCount}
