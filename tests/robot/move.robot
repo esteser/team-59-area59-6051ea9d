@@ -23,7 +23,6 @@ Move from (9,0) coord of board       9             0             0              
 Move from (9,0) coord of board       9             0             0                     WEST          8           0           1
 Move from (9,0) coord of board       9             0             0                     NORTH         9           1           1
 Move from (9,0) coord of board       9             0             0                     SOUTH         9           0           1
-
 Move from (5,5) coord of board       5             5             0                     EAST          6           5           1
 Move from (5,5) coord of board       5             5             0                     WEST          4           5           1
 Move from (5,5) coord of board       5             5             0                     NORTH         5           6           1
