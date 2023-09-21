@@ -4,7 +4,7 @@ Test Template     Move character
 Library           MoveLibrary.py
 
 *** Test Cases ***                  StartingX     StartingY     StartingMoveCount     Direction     EndingX     EndingY     EndingMoveCount
-Move in the middle of the board     0             0             1                     NORTH         0           1           2
+Move in the middle of the board     0             0             0                     NORTH         0           5           5
 Move on the edge of the board       0             0             5                     SOUTH         0           0           6
 
 
@@ -18,3 +18,4 @@ Move character
     Character xposition should be        ${endingX}
     Character yposition should be        ${endingY}
     Character moveCount should be        ${endingMoveCount}
+     
