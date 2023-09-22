@@ -1,5 +1,6 @@
 import os
 import logging
+import climage
 from typing import Callable
 from levelup.controller import GameController, Direction, InvalidMoveException
 
@@ -72,7 +73,8 @@ class GameApp:
 ⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⢠⡿⡆⠀⠀⠀⠀⠀⠘⣆⠘⢦⣀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀
 ⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⡟⠓⠁⠀⠀⠀⠀⠀⠀⠘⡦⠀⠈⠛⠢⠤⠤⠀⠀⠀⠀⠀⠀""")
         self.controller.create_character(character)
-
+        output = climage.convert('/config/workspace/src/levelup/Area59Rover.jpeg')
+        print(output)
     def move_loop(self):
         while True:
             response = self.prompt(
