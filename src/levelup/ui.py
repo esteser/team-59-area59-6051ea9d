@@ -1,4 +1,3 @@
-import os
 import logging
 from typing import Callable
 from levelup.controller import GameController, Direction, InvalidMoveException
@@ -33,7 +32,7 @@ class GameApp:
    / /\ \ | '__/ _ \/ _` |___ \\__, |       
   / ____ \| | |  __/ (_| |___) | / /        
  /_/    \_\_|  \___|\__,_|____/ /_/ 
-            /""")
+             /""")
 
         character = self.prompt("Enter character name", lambda x: len(x) > 0)
        
